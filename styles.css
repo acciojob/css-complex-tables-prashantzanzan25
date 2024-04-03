@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid orange;
+}
+
+th, td {
+  text-align: center;
+  border: 1px solid orange;
+  padding: 3px 5px;
+}
+
+th {
+  background-color: #888888;
+  color: white;
+}
+
+.sub-total-text {
+  text-align: right;
+}

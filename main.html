@@ -1,16 +1,56 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Complex Tables</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+<table>
+  <thead>
+    <tr>
+      <th>Firm Org</th>
+      <th>Lob</th>
+      <th>Sub Lob</th>
+      <th>Business Plans</th>
+      <th>Business Components</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="11">XYZ</td>
+      <td rowspan="5">CST</td>
+      <td rowspan="3">CT</td>
+      <td>ADS</td>
+      <td>1</td>
+    </tr>
+    <!-- Add other rows as needed -->
+    <tr>
+      <td>ADS</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>ADS</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td rowspan="2">ABC</td>
+      <td>ADS</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>ADS</td>
+      <td>5</td>
+    </tr>
+    <tr class="sub-total-row">
+      <td colspan="3" class="sub-total-text">Sub Total</td>
+      <td>6</td>
+      <td>15</td>
+    </tr>
+    <!-- Add more rows as needed -->
+  </tbody>
+</table>
 </body>
-
 </html>
